@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ms Madi', cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 20px;
     color: rgb(83, 45, 114);
 }
@@ -47,13 +47,15 @@ option{
 }
 
 .header{
-    background-image: url(../images/otro\ fondo.jpg);
+    background-image: url(../images/to.png);
+    width: 100%;
     max-height: 200px;
     border-bottom: thistle 10px solid;
 }
 
 .header2{
-    background-image: url(../images/f1.jpg);
+    background-image: url(../images/to.jpg);
+    width: 100%;
     max-height: 200px;
     border-bottom: thistle 10px solid;
 }
@@ -67,19 +69,23 @@ option{
     border: hotpink 3px double;
 }
 
-.Home{
-    background-color: rgb(83, 45, 114);
-    color: white;
-    font-size: 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px;
-    border: white 3px solid;
-    text-align: right;
-    margin: 10px;
+.logo1{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: hotpink 3px double;
+    float: right;
 }
 
-.Contacto{
+.taza{
+    width: 100%;
+    height: 90%;
+    border-top: thistle 10px solid;
+    border-bottom: thistle 10px solid;
+}
+
+.link{
     background-color: rgb(83, 45, 114);
     color: white;
     font-size: 30px;
@@ -115,7 +121,7 @@ h1{
     border-style: ridge;
     margin-bottom: 20px;
     text-decoration:underline;
-}
+}    
 
 .tenor-gif-embed{
     background-color: rgb(83, 45, 114);
@@ -183,7 +189,7 @@ i{
 }
 
 footer{
-    background-image: url(../images/otro\ fondo.jpg);
+    background-image: url(../images/to.jpg);
     min-width: 500px;
     padding: 20px;
     text-align: center;
@@ -209,11 +215,28 @@ footer{
 }
 
 .footerc{
-    background-image: url(../images/f1.jpg);
+    background-image: url(../images/to.jpg);
     padding: 100px;
     margin-top: 10px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+h5{
+    font-size: 500px;
+    color: white;
+}
+
+.carr{
+    font-size: 50px;
+    color: rgb(83, 45, 114);
 }
 
 @media only screen and (max-width: 750px){
 
 }
+
+    
